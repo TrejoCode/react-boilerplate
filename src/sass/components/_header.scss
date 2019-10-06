@@ -1,0 +1,29 @@
+/*
+* @name: header.scss
+* @description: Estilos del Header
+*/
+
+header {
+    padding: $paddingLarge 0;
+    background-color: $white;
+
+    nav {
+        align-items: center;
+        justify-content: flex-end;
+        a { padding: 0 $paddingMedium; }
+        .nav-active { color: $primary; }
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: $paddingMedium 0;
+        .logo { justify-content: center; }
+        nav {
+            justify-content: center;
+            margin-top: $marginMedium;
+        }
+    
+    }
+}

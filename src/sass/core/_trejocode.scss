@@ -1,0 +1,286 @@
+
+
+/*  INFORMATION
+   =============================
+    
+	- File:           core.css
+	- Versión:        1.3.1
+	- Licence:        Mozilla Public Licence. 
+	- Author:         trejocode
+    - Update:         11/06/2019
+    - Client:         UPQROO <3
+*/
+
+/* RESET
+   =============================
+   - These properties able the cross compatibility for browsers and removes default properties from browsers.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100%;
+    font-display: swap;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {    
+    font-display: swap;
+    overflow-x: hidden;
+    background-color: #f6f6f6;
+}
+
+iframe { border: none; }
+
+input, textarea, select, option, button {
+    margin: 0;
+	border: 0;
+    padding: 0;
+    outline: none;
+}
+
+table {
+    border-spacing: 0;
+    overflow-x: auto;
+}
+
+table th {
+    white-space: nowrap;
+}
+
+input:focus, select:focus {
+    outline: none;
+    transition: 300ms ease-in-out;
+}
+
+a {
+    color: inherit;
+    word-break: keep-all;
+    text-decoration: none;        
+    align-self: flex-start;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* CLASES
+   =============================
+	1. = FLEX LAYOUT
+	2. = ALIGNMENT
+    3. = WHITE SPACES
+    4. = TABLES
+    5. = IMAGES
+    6. = DECORATORS & COLORS
+*/
+
+
+/*    FLEX LAYOUT
+    - This stylesheet is based on flexbox.
+    - W3 CSS Flexible Box Layout Module:
+       https://www.w3.org/TR/css-flexbox-1
+    
+*/
+
+.flex {
+    width: 100%;
+    display: flex;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+}
+
+.responsive-img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-responsive {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nowrap {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+/*    ALIGNMENT    */
+
+
+.justify-center {
+    display: flex;
+    justify-content: center;
+}
+
+.justify-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.justify-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.justify-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.justify-arround {
+    display: flex;
+    justify-content: space-around;
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+}
+
+.align-start {
+    display: flex;
+    align-items: flex-start;
+}
+
+.align-end {
+    display: flex;
+    align-items: flex-end;
+}
+
+.auto {
+    width: auto;    
+    display: flex;
+}
+
+.full {
+    width: 100%;
+    display: flex;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+}
+
+
+/*    TEXT ALIGNMENT    */
+
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+/*    TABLES    */
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.table-responsive table{
+    width: 100%;
+}
+
+.table-auto {
+    table-layout: auto;
+}
+
+.table-equal {
+    table-layout: fixed;
+}
+
+
+/*    IMAGES    */
+
+.cover-img {
+    object-fit: cover;
+}
+
+.contain-img {
+    object-fit: contain;
+}
+
+
+/*    DECORATORS    */
+
+.hidden {
+    display: none !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+
+
+/*    LARGE DEVICES    */
+
+@media screen and (min-width: 1440px) {
+
+    .container {
+        max-width: 1300px;
+    }
+
+}
+
+/*    TABLETS DEVICES    */
+
+@media screen and (max-width: 768px) {    
+    
+    .row-responsive {
+        flex-direction: column;
+    }
+
+    .white-space-64 {
+        height: 48px;
+    }
+    
+}
+
+/*    MOBILE DEVICES    */
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 92%;
+    }
+}

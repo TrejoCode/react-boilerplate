@@ -1,0 +1,12 @@
+/*
+*   @name: _pages.scss
+*   @description: Estilos de la paginas
+*/
+
+body {
+    height: 100vh;
+}
+
+.public, .private, .page404 {
+    height: calc(100vh - 182px);
+}

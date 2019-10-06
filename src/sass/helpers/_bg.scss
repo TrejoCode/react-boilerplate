@@ -1,0 +1,10 @@
+/**
+*   bg.scss
+*   @description: Propiedades de los backgrounds
+*/
+
+@mixin backgroundImage {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

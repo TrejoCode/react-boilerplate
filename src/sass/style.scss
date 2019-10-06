@@ -1,0 +1,51 @@
+/**
+*   @name: style.scss
+*   @description: Constructor de la hoja de estilos
+*   @variables: dev: boolean: Activa las opciones de desarrollo
+*/
+
+$dev: false;
+
+/*  
+*   1.- Core Styles: core.css
+*   2.- Componentes: Todos los elementos posibles
+*   3.- Helpers: Mixins y utilidades
+*   4.- Componentes: Componentes de la aplicación
+*   5.- Páginas: Estilos generales de las páginas
+*   6.- Libs: Librerías de terceros
+*/
+
+
+/*      Core       */
+
+@import './core/dev';
+@import './core/trejocode';
+@import './core/colors';
+@import './core/font';
+@import './core/spacing';
+@import './core/animations';
+
+
+/*      Helpers      */
+
+@import './helpers/bg';
+@import './helpers/iframe';
+
+
+/*      Componentes      */
+
+@import './components/header';
+@import './components/footer';
+
+
+/*      Páginas      */
+
+@import './pages/home';
+
+
+/*      Libs     */
+
+@import './libs/nprogress';
+
+
+@if $dev { @include dev; }

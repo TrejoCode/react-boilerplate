@@ -1,0 +1,167 @@
+/**
+*   @name: fonts.scss
+*   @description: Estilos de fuente y tipografía
+*/
+
+/*    Font families    */
+
+$Roboto: "Roboto", sans-serif;
+
+/*    Font sizes    */
+
+$fontMini: 0.8rem;
+$fontTiny: 0.9rem;
+$fontText: 0.93rem;
+$fontSmall: 1rem;
+$fontRegular: 1.2rem;
+$fontMedium: 1.4rem;
+$fontLarge: 1.6rem;
+$fontHuge: 1.8rem;
+$fontDouble: 2rem;
+$fontTriple: 2.5rem;
+
+.font-triple {
+	font-size: $fontTriple;
+}
+
+.font-double {
+	font-size: $fontDouble;
+}
+
+.font-huge {
+	font-size: $fontHuge;
+}
+
+.font-large {
+	font-size: $fontLarge;
+}
+
+.font-medium {
+	font-size: $fontMedium;
+}
+
+.font-regular {
+	font-size: $fontRegular;
+}
+
+.font-small {
+	font-size: $fontSmall;
+}
+
+.font-text {
+	font-size: $fontText;
+}
+
+.font-tiny {
+	font-size: $fontTiny;
+}
+
+.font-mini {
+	font-size: $fontMini;
+}
+
+/*    Font weight   */
+
+$weightRegular: 400;
+$weightMedium: 500;
+$weightBold: 600;
+$weightBlack: 700;
+
+.weight-black {
+	font-weight: $weightBlack;
+}
+
+.weight-bold {
+	font-weight: $weightBold;
+}
+
+.weight-medium {
+	font-weight: $weightMedium;
+}
+
+.weight-regular {
+	font-weight: $weightRegular;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, b, i, span, 
+td, td, li, label, strong, legend, em {
+	color: $darkgray;
+	font-family: $Roboto;
+}
+
+h1 {
+	font-size: $fontHuge;
+	font-weight: $weightBlack;
+}
+
+h2 {
+	line-height: 2rem;
+	font-size: $fontLarge;
+	font-weight: $weightBold;
+}
+
+h3 {
+	font-size: $fontMedium;
+	font-weight: $weightBold;
+}
+
+h4 {
+	font-size: $fontRegular;
+	font-weight: $weightMedium;
+}
+
+h5 {
+	font-size: $fontText;
+	font-weight: $weightMedium;
+}
+
+h6 {
+	font-size: $fontMedium;
+	font-weight: $weightRegular;
+}
+
+p, a, li, label {
+	line-height: 1.5rem;
+	font-size: $fontText;
+}
+
+b, i, span, strong {
+	color: inherit;
+	font-size: inherit;
+}
+
+/*   Decorators    */
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.lowercase {
+	text-transform: lowercase;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.line-through {
+	text-decoration: line-through;
+}
+
+::selection {
+	color: $white;
+	background-color: $primary;
+}
+
+
+@media screen and (max-width: 768px) {
+
+	.font-triple { font-size: $fontDouble; }
+	
+	.font-double { font-size: $fontHuge; }
+
+}

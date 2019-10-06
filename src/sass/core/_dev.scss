@@ -1,0 +1,21 @@
+/*
+*   dev.scss
+*   @description: Todas las opciones de desarrollo
+*/
+
+
+@mixin dev {
+
+    @media screen and (max-width: 992px) {
+        body { background: gray; }
+    }
+
+    @media screen and (max-width: 768px) {
+        body { background: lightgrey; }
+    }
+
+    @media screen and (max-width: 576px) {
+        body { background: white; }
+    }
+
+}

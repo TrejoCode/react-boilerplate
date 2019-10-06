@@ -1,17 +1,32 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "React.js Boilerplate",
+  "name": "React.js Boilerplate - trejocode",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
+		  "src": "./icons/icon-32.png",
+		  "type": "image/png",
+		  "sizes": "32x32"
+		},
+		{
+		  "src": "./icons/icon-48.png",
+		  "type": "image/png",
+		  "sizes": "48x48"
+		},
+		{
+		  "src": "./icons/icon-96.png",
+		  "type": "image/png",
+		  "sizes": "96x96"
+		},
+		{
+		  "src": "./icons/icon-144.png",
+		  "type": "image/png",
+		  "sizes": "144x144"
+		},
+		{
+		  "src": "./icons/icon-192.png",
+		  "type": "image/png",
+		  "sizes": "192x192"
+		},
     {
       "src": "logo512.png",
       "type": "image/png",
@@ -20,6 +35,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#33c8a3",
   "background_color": "#ffffff"
 }

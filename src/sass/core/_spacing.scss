@@ -1,0 +1,38 @@
+/*
+*   spacing.scss
+*   @description: Espacios en blanco, margenes y paddings
+*/
+
+/*      Paddings       */
+
+$paddingNormal:       8px;
+$paddingMedium:      16px;
+$paddingSemi:        24px;
+$paddingLarge:       32px;
+$paddingHuge:        48px;
+
+
+/*      Margins       */
+
+$marginNormal:       8px;
+$marginMedium:      16px;
+$marginSemi:        24px;
+$marginLarge:       32px;
+$marginHuge:        48px;
+
+
+/*      Whitespaces       */
+
+.white-space-4 { height: 4px; }
+
+.white-space-8 { height: 8px; }
+
+.white-space-16 { height: 16px; }
+
+.white-space-24 { height: 24px; }
+
+.white-space-32 { height: 32px; }
+
+.white-space-48 { height: 48px; }
+
+.white-space-64 { height: 64px; }
