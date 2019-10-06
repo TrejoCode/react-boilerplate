@@ -48,11 +48,11 @@ http://localhost:3000
 
 ### 📁 Estructura / Folder structure
 	├── node_modules            # Módulos Node
-    ├── components                # Componentes
-    ├── pages                          # Páginas
-	├── routes                         # Ruteador
-    ├── sass                             # Módulos SASS
-	├── utils                             # Utilidades
+    ├── components              # Componentes
+    ├── pages                   # Páginas
+	├── routes                  # Ruteador
+    ├── sass                    # Módulos SASS
+	├── utils                   # Utilidades
     └── README.md
 
 ## 🤝 Colaboradores / Collaborators
