@@ -64,3 +64,7 @@ http://localhost:3000
 ## 📋 Licencia / Licence
 
 MIT - vea el archivo [LICENSE.md](LICENSE.md) para más detalles.
+
+## TODO
+- HTTP Client, Set MIME Type
+- Remove in Core.css font-display: swap in the body element
