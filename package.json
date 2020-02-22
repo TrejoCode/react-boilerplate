@@ -5,13 +5,13 @@
   "dependencies": {
     "node-sass": "^4.12.0",
     "nprogress": "^0.2.0",
-    "react": "^16.10.2",
+    "react": "^16.12.0",
     "react-app-polyfill": "^1.0.4",
-    "react-dom": "^16.10.2",
+    "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.2.0",
-    "superagent": "^5.1.0",
+    "react-scripts": "3.4.0",
+    "superagent": "^5.2.2",
     "webfontloader": "^1.6.28"
   },
   "scripts": {
@@ -30,9 +30,9 @@
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+      "last 2 chrome version",
+      "last 2 firefox version",
+      "last 2 safari version"
     ]
   }
 }
