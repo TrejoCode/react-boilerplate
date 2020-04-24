@@ -1,38 +1,25 @@
 /**
- *  @name: routes.jsx
- *  @version: 1.0.0
- *  @author: Trejocode - Sergio
- *  @description: Manejo de todas las rutas de la aplicación
- * 	@process: 3
+ *  @version 1.0.1
+ *  @author Trejocode - Sergio
+ *  @description Manejo de todas las rutas de la aplicación
+ * 	@process 3
 */
 
 import React from "react";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import PrivateRoute     from './private';
+import RestrictRoute    from './restrict';
 
-// Páginas
-import PagePublic from '../pages/public';
-import PagePrivate from '../pages/private';
-import Page404 from '../pages/404';
-import PageOther from '../pages/other';
 
-// Función para declarar rutas privadas
-const PrivateRoute = ({ component: Component, ...rest }) => (
-    <Route
-        { ...rest }
-        render = {
-            props => {
-                const auth = window.localStorage.getItem("localStorageItem");
-                if (auth) {
-                    return <Component { ...props } />;
-                } else {
-                    return (
-                        <Redirect to = { { pathname: "/", state: { from: props.location } } } />
-                    );
-                }
-            }
-        }
-    />
-);
+/**
+ * @description Incorporación de todas las rutas
+*/
+import PageIndex    from '../pages';
+import PageFetching from '../pages/fetching';
+import PagePrivate  from '../pages/private';
+import PageRestrict from '../pages/restrict';
+import Page404      from '../pages/404';
+
 
 const Routes = () => (
 
@@ -40,9 +27,10 @@ const Routes = () => (
         <div className="flex main">
             <div className="column full">
                 <Switch>
-                    <Route path = "/" exact component = { PagePublic } />
-                    <Route path = "/nosotros" exact component = { PageOther } />
+                    <Route path = "/" exact component = { PageIndex } />
+                    <Route path = "/fetch" exact component = { PageFetching } />
                     <PrivateRoute path = "/private" exact component = { PagePrivate } />
+                    <RestrictRoute path = "/restrict" exact component = { PageRestrict } />
                     <Route component = { Page404 } />
                 </Switch>
             </div>

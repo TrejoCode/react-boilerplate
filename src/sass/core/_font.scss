@@ -1,24 +1,25 @@
-/**
-*   @name: fonts.scss
-*   @description: Estilos de fuente y tipografía
+/*
+* 	@version 1.0.1
+*	@author Trejocode - Sergio
+*   @description Estilos de fuente y tipografía
 */
 
 /*    Font families    */
 
-$Roboto: "Roboto", sans-serif;
+$IBM: 'IBM Plex Sans', sans-serif;
 
 /*    Font sizes    */
 
-$fontMini: 0.8rem;
-$fontTiny: 0.9rem;
-$fontText: 0.93rem;
-$fontSmall: 1rem;
-$fontRegular: 1.2rem;
-$fontMedium: 1.4rem;
-$fontLarge: 1.6rem;
-$fontHuge: 1.8rem;
-$fontDouble: 2rem;
-$fontTriple: 2.5rem;
+$fontMini: 		0.8rem;
+$fontTiny: 		0.9rem;
+$fontText: 		0.93rem;
+$fontSmall: 	1rem;
+$fontRegular: 	1.2rem;
+$fontMedium: 	1.4rem;
+$fontLarge: 	1.6rem;
+$fontHuge: 		1.8rem;
+$fontDouble: 	2rem;
+$fontTriple: 	2.5rem;
 
 .font-triple {
 	font-size: $fontTriple;
@@ -60,49 +61,38 @@ $fontTriple: 2.5rem;
 	font-size: $fontMini;
 }
 
-/*    Font weight   */
+
+/*    FONT WEIGHTS 
+
+    - Based on 'IBM Plex Sans'
+
+*/
+
 
 $weightRegular: 400;
-$weightMedium: 500;
-$weightBold: 600;
-$weightBlack: 700;
+$weightMedium: 	500;
+$weightSemi: 	600;
+$weightBold: 	700;
 
-.weight-black {
-	font-weight: $weightBlack;
-}
-
-.weight-bold {
-	font-weight: $weightBold;
-}
-
-.weight-medium {
-	font-weight: $weightMedium;
-}
-
-.weight-regular {
-	font-weight: $weightRegular;
-}
-
-h1, h2, h3, h4, h5, h6, p, a, b, i, span, 
-td, td, li, label, strong, legend, em {
-	color: $darkgray;
-	font-family: $Roboto;
+h1, h2, h3, h4, h5, h6, p, a, b, span, th, td, li,
+label, strong, legend, em, button, select, option, input {
+    color: $black;
+    font-family: $IBM;
 }
 
 h1 {
 	font-size: $fontHuge;
-	font-weight: $weightBlack;
+	font-weight: $weightBold;
 }
 
 h2 {
-	line-height: 2rem;
 	font-size: $fontLarge;
-	font-weight: $weightBold;
+	font-weight: $weightSemi;
 }
 
 h3 {
 	font-size: $fontMedium;
-	font-weight: $weightBold;
+	font-weight: $weightSemi;
 }
 
 h4 {
@@ -111,57 +101,61 @@ h4 {
 }
 
 h5 {
-	font-size: $fontText;
+	font-size: $fontSmall;
 	font-weight: $weightMedium;
 }
 
 h6 {
-	font-size: $fontMedium;
+	font-size: $fontText;
 	font-weight: $weightRegular;
 }
 
 p, a, li, label {
+	color: $gray;
 	line-height: 1.5rem;
-	font-size: $fontText;
+    font-size: $fontText;
 }
 
-b, i, span, strong {
+b, i, span, strong, em {
 	color: inherit;
 	font-size: inherit;
 }
 
-/*   Decorators    */
-
 .uppercase {
-	text-transform: uppercase;
-}
-
-.lowercase {
-	text-transform: lowercase;
-}
-
-.capitalize {
-	text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .underline {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
-.line-through {
-	text-decoration: line-through;
+
+.weight-regular {
+	font-weight: $weightRegular;
 }
+
+.weight-medium {
+    font-weight: $weightMedium;
+}
+
+.weight-semi {
+	font-weight: $weightSemi;
+}
+
+.weight-bold {
+    font-weight: $weightBold;
+}
+
 
 ::selection {
-	color: $white;
-	background-color: $primary;
+	color: $secondary;
+    background-color: $primary;
 }
-
 
 @media screen and (max-width: 768px) {
 
 	.font-triple { font-size: $fontDouble; }
 	
-	.font-double { font-size: $fontHuge; }
+	.font-double { font-size: $fontLarge; }
 
 }

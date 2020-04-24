@@ -1,9 +1,32 @@
 /*
-* @name: footer.scss
-* @description: Estilos del Footer
+ *  @version 1.0.1
+ *  @author Trejocode - Sergio
+ *  @description Estilos para el componente <Footer /> 
 */
 
 footer {
     padding: $paddingLarge 0;
-    background-color: $black;
+    background-color: $primary-alt;
+
+    .social {
+
+        justify-content: flex-end;
+
+        a {
+            padding: 0 $paddingNormal;
+        }
+
+    }
+
+    @media screen and (max-width: 768px){
+        
+        padding: $paddingMedium 0;
+
+        .social, .legend {
+            margin: $marginNormal 0;
+            justify-content: center;
+        }
+
+    }
+
 }

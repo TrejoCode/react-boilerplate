@@ -1,42 +1,44 @@
-![Trejocode Logo](https://www.trejocode.com/trejocode-landscape.png)
+![Trejocode Logo](https://res.cloudinary.com/trejocode/image/upload/v1586298449/Trejocode/logo_t0otlj.png)
 
-# ⚛️ React.js Web Boilerplate
-Boilerplate para proyecto en React listo para producción, organizado, optimizado para SEO y limpio. 
+# ⚛️ React.js Boilerplate
+Boilerplate para proyectos de React.js CSR. Listo para producción, organizado y optimizado para SEO.
 
 ------------
 
 
-Boilerplate for project in React ready for production, organized, optimized for SEO and clean.
+Boilerplate for React.js CSR projects. Production ready, organized and optimized for SEO.
 
 ### 🏷️ Características / Features
-- Optimizado para SEO / SEO Ready
-- Ruteador / Router
-- Cliente HTTP / HTTP Client
-- PWA Listo / PWA Ready
-- SASS precargado / SASS incorporated
-- Código documentado / Documented code
-- Estructura de carpetas / Folder structure
+- Optimizado para SEO / SEO Ready.
+- Ruteador, Rutas privadas, públicas y restringidas / Router, Private, public and restricted routes.
+- Cliente HTTP / HTTP Client.
+- PWA Listo / PWA Ready.
+- SASS precargado / SASS incorporated.
+- NProgress Loader.
+- Código documentado / Documented code.
+- Estructura de carpetas / Folder structure.
+- Estructura de carpetas / Folder structure.
+- Última versión mayor de React / React latest version.
 
 ### 🚀 Para empezar / Get started
-Estas instrucciones le proporcionarán una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo. Consulte la implementación para obtener notas sobre cómo implementar el proyecto en producción.
+Estas instrucciones le proporcionarán una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo. Consulte la sección de implementación para obtener notas sobre cómo desplegar el proyecto en producción.
 
 ------------
 
-These instructions will provide you with a copy of the project in operation on your local machine for development purposes. Consult the implementation for notes on how to implement the project in production.
+These instructions will provide you with a copy of the running project on your local machine for development purposes. See the implementation section for notes on how to deploy the project into production.
 
-````
+```bash
 cd react-boilerplate
 npm install
 npm start
-````
+```
 
-http://localhost:3000
 
 ### 📦 Node modules
 * [Node SASS](https://github.com/sass/node-sass) - SASS Compiler
-* [NProgress](https://github.com/rstacruz/nprogress) - Progress bar
+* [React NProgress](https://github.com/tanem/react-nprogress) - Progress bar
 * [React App Polyfill](https://www.npmjs.com/package/react-app-polyfill) - Polyfill
-* [React Helmet](https://github.com/nfl/react-helmet) - Document Head manager
+* [React Helmet Async](https://www.npmjs.com/package/react-helmet-async) - Document Head manager
 * [React Router Dom](https://www.npmjs.com/package/react-router-dom) - Router
 * [Superagent](https://github.com/visionmedia/superagent) - HTTP core client
 * [Web Font Loader](https://github.com/typekit/webfontloader) - Async Web Font Loader
@@ -52,6 +54,7 @@ http://localhost:3000
     ├── pages                   # Páginas
 	├── routes                  # Ruteador
     ├── sass                    # Módulos SASS
+    ├── libs                    # Librerías
 	├── utils                   # Utilidades
     └── README.md
 
@@ -60,6 +63,11 @@ http://localhost:3000
 * **Sergio A. Trejo** - *Frontend* - [trejocode](https://github.com/trejocode)
 - You ❤
 
+## 📕 Migración de versión anterior / Previous version migration
+
+Debido al cambio de componentes, layout y versión de React. No es posible actualizar automáticamente. Deberá actualizar manualmente.
+
+Due to the change of components, layout and version of React. It is not possible to update automatically. You will need to update manually.
 
 ## 📋 Licencia / Licence
 

@@ -1,18 +1,18 @@
-/**
-*   @name: style.scss
-*   @description: Constructor de la hoja de estilos
-*   @variables: dev: boolean: Activa las opciones de desarrollo
+/*
+ *  @version 1.0.1
+ *  @author Trejocode - Sergio
+ *  @description Constructor de la hoja de estilos
+ *  @variables {Boolean} dev: Activa las opciones de desarrollo
 */
 
 $dev: false;
 
 /*  
-*   1.- Core Styles: core.css
-*   2.- Componentes: Todos los elementos posibles
-*   3.- Helpers: Mixins y utilidades
-*   4.- Componentes: Componentes de la aplicación
-*   5.- Páginas: Estilos generales de las páginas
-*   6.- Libs: Librerías de terceros
+*   1.- Core Styles
+*   2.- Componentes
+*   3.- Helpers
+*   4.- Páginas
+*   5.- Libs
 */
 
 
@@ -23,7 +23,6 @@ $dev: false;
 @import './core/colors';
 @import './core/font';
 @import './core/spacing';
-@import './core/animations';
 
 
 /*      Helpers      */
@@ -40,11 +39,11 @@ $dev: false;
 
 /*      Páginas      */
 
-@import './pages/home';
+@import './pages/index';
+@import './pages/fetch';
 
 
 /*      Libs     */
-
 @import './libs/nprogress';
 
 

@@ -1,34 +1,46 @@
 /**
- *  @name: index.jsx
- *  @version: 1.0.0
- *  @author: Trejocode - Sergio
- *  @description: Punto de Entrada de React
- * 	@process: 1
+ *  @version 1.1.0
+ *  @author Trejocode - Sergio
+ *  @description Punto de Entrada de React
+ * 	@process 1
 */
 
-import React from 'react';
+import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
+import App      from './app';
 import 'react-app-polyfill/ie11';
-import App from './app';
-import * as serviceWorker from './serviceWorker';
 import WebFont from 'webfontloader';
+import * as serviceWorker from './serviceWorker';
 
-// Hoja de estilos
+
+/**
+ * @description Cargar la hoja de estilos, requiere SASS
+*/
 import './sass/style.scss';
 
-// Función para cargar la fuente de Google de manera asíncrona.
+
+/**
+ * @description WebFontLoader nos permite cargar la fuente de Google de manera asíncrona.
+ * @url https://github.com/typekit/webfontloader
+*/
+
 WebFont.load({
-    google: {
-        families: ['Roboto:400,500,700,900', 'sans-serif']
-    }
-})
+	google: {
+		families: ['IBM Plex Sans:400,500,600,700', 'sans-serif']
+	}
+});
 
 
 ReactDOM.render(
-    <App />, 
-    document.getElementById('root')
+	<StrictMode>
+		<App />
+	</StrictMode>, 
+	document.getElementById('root')
 );
 
 
-// Service Worker "register" para una PWA.
+/**
+ * @description Registra el Service Worker para una PWA
+ * @url https://create-react-app.dev/docs/making-a-progressive-web-app
+*/
 serviceWorker.register();

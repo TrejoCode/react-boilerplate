@@ -1,28 +1,36 @@
 /**
- *  @name: header.jsx
- *  @version: 1.0.0
- *  @author: Trejocode - Sergio
- *  @description: Componente Header
+ *  @version 1.1.0
+ *  @author Trejocode - Sergio
+ *  @description Estilos del componente <Header />
 */
 
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React        from 'react';
+import { NavLink }  from 'react-router-dom';
+import ImgLogo      from '../../static/img/logo.png';
 
 const Header = () => (
 
     <header className="justify-center">
-        <div className="container row-responsive">
-            <div className="logo full">
-                <h2>
-                    Company Name
-                </h2>
+        <div className="container row-responsive align-center">
+            <div className="logo align-center full">
+                <div className="logo responsive-img">
+                    <img src = { ImgLogo } alt = "React Boilerplate Logo" />
+                </div>
+                <div className="column">
+                    <div className="white-space-16"></div>
+                    <h2 className="color-secondary">
+                        Boilerplate
+                    </h2>
+                </div>
             </div>
             <nav className="full">
-                <NavLink exact to = "/" className="weight-medium color-gray" activeClassName = "nav-active">
+                <NavLink exact to = "/" className="nav-item weight-semi font-small color-secondary" 
+                activeClassName = "nav-active">
                     Inicio
                 </NavLink>
-                <NavLink exact to = "/nosotros" className="weight-medium color-gray" activeClassName = "nav-active">
-                    Nosotros
+                <NavLink exact to = "/fetch" className="nav-item weight-semi font-small color-secondary" 
+                activeClassName = "nav-active">
+                    Fetch Request
                 </NavLink>
             </nav>
         </div>

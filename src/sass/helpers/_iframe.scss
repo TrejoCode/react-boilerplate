@@ -1,6 +1,7 @@
 /*
-*   @name: _iframe.scss
-*   @description: Responsive Iframes
+ *  @version 1.0.1
+ *  @author Trejocode - Sergio
+ *  @description Habilita los <iframe> responsives
 */
 
 .iframe-container {    
@@ -10,10 +11,10 @@
 }
 
 .iframe-container iframe {    
-      top: 0;
-      left: 0;
-      border: 0;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-  }
+    top: 0;
+    left: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}

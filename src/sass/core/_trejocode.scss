@@ -4,11 +4,11 @@
    =============================
     
 	- File:           core.css
-	- Versión:        1.3.1
+	- Versión:        1.3.2
 	- Licence:        Mozilla Public Licence. 
-	- Author:         trejocode
-    - Update:         11/06/2019
-    - Client:         UPQROO <3
+	- Author:         Trejocode
+    - Update:         25/02/2020
+    - Client:         You <3 
 */
 
 /* RESET
@@ -23,17 +23,15 @@
 
 html {
     font-size: 100%;
-    font-display: swap;
 }
 
 *, *:before, *:after {
   box-sizing: border-box;
 }
 
-body {    
-    font-display: swap;
+body {
     overflow-x: hidden;
-    background-color: #f6f6f6;
+    background-color: #F6F6F6;
 }
 
 iframe { border: none; }
@@ -95,11 +93,6 @@ img {
     display: flex;
 }
 
-.container {
-    width: 90%;
-    display: flex;
-}
-
 .responsive-img {
     display: flex;
     justify-content: flex-start;
@@ -112,6 +105,11 @@ img {
 }
 
 .row-responsive {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-responsive-reverse {
     display: flex;
     flex-direction: row;
 }
@@ -251,6 +249,10 @@ img {
     cursor: pointer;
 }
 
+.grid {
+    display: grid;
+}
+
 
 
 /*    LARGE DEVICES    */
@@ -269,6 +271,10 @@ img {
     
     .row-responsive {
         flex-direction: column;
+    }
+
+    .row-responsive-reverse {
+        flex-direction: column-reverse;
     }
 
     .white-space-64 {

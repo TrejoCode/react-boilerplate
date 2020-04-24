@@ -1,34 +1,34 @@
 /**
- *  @version 1.0.1
+ *  @version 1.1.0
  *  @author Trejocode - Sergio
- *  @description Página: /404
+ *  @description Página de /index
 */
 
-import React    from 'react';
-import { Link } from 'react-router-dom';
-import Layout   from './layout';
+import React from 'react';
+import Layout from './layout';
 
-const Page404 = () => (
-    <Layout title = "No existe la página solicitada" description = "La página no existe">
+const PageIndex = () => (
+    <Layout title = "Inicio" description = "React Boilerplate: Página de Inicio" keywords = "React.js, SEO Ready, Inicio" >
         <div className="page-index justify-center">
             <div className="full justify-center align-center">
                 <div className="container column">
                     <div className="justify-center">
                         <h1 className="text-center color-secondary">
-                            404 - Lá página no existe
-                            <span role="img" aria-label="Helmet With White Cross">⛑️</span>
+                            React.js Boilerplate 
+                            <span role="img" aria-label="atom">⚛️</span>
                         </h1>
                     </div>
                     <div className="white-space-16"></div>
                     <div className="justify-center">
                         <h2 className="color-gray text-center">
-                            Quizá ocurrió un error
+                            Edit everything for fun
+                            <span role="img" aria-label="pencil"> 💻</span>
                         </h2>
                     </div>
                     <div className="white-space-16"></div>
                     <div className="justify-center">
                         <p className="text-center">
-                            Regresar a: <Link className = "underline" to = "/">Inicio</Link>
+                            Created and maintained by: <a className = "underline" href="https://www.trejocode.com">Trejocode</a> and the community 
                         </p>
                     </div>
                 </div>
@@ -37,4 +37,4 @@ const Page404 = () => (
     </Layout>
 );
 
-export default Page404;
+export default PageIndex;

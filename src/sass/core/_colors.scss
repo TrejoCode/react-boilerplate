@@ -1,40 +1,74 @@
 /*
-*   colors.scss
-*   @description: Variables de colores
+ *  @version 1.0.1
+ *  @author Trejocode - Sergio
+ *  @description Base de colores de la imagen institucional
 */
 
-$primary:           #00B6BF;
-$secondary:         #4165ba;
-$success:           #1caf5f;
-$info:              #17a2b8;
-$warning:           #FCDB04;
-$danger:            #D64541;
 
-$black:             #000000;
-$white:             #FFFFFF;
-$gray:              #505050;
-$lightgray:         #e6e7ea;
-$darkgray:          #333333;
-$background:        #F6F6F7;
+$primary:       #2bb593;
+$primary-alt:   #258395;
+$secondary:     #263d54;
+$secondary-alt: #516376;
+$success:       #27ae60;
+$warning:       #f39c12;
+$danger:        #c0392b;
+$info:          #258395;
 
-/* Classes de colores */
+$black:     #262626;
+$white:     #FFFFFF;
+$gray:      #6c6c6c;  
+$darkgray:  #4b4b4b;
 
-.color-white { color: $white; }
+$darkBlue:  #263d54;
+$darkAqua:  #258395;
+$aqua:      #33c8a3;
+$lightBg:   #ebf3f5;
 
-.color-black { color: $black; }
 
-.color-gray { color: $gray; }
+.color-primary {
+    color: $primary;
+}
 
-.color-darkgray { color: $darkgray; }
+.color-primary-alt {
+    color: $primary-alt;
+}
 
-.color-primary { color: $primary; }
+.color-secondary {
+    color: $secondary;
+}
 
-.color-secondary { color: $secondary; }
+.color-secondary-alt {
+    color: $secondary-alt;
+}
 
-.color-success { color: $success; }
+.color-success {
+    color: $success;
+}
 
-.color-info { color: $info; }
+.color-warning {
+    color: $warning;
+}
 
-.color-warning { color: $warning; }
+.color-danger {
+    color: $danger;
+}
 
-.color-danger { color: $danger; }
+.color-info {
+    color: $info;
+}
+
+.color-gray {
+    color: $gray;
+}
+
+.color-darkgray {
+    color: $darkgray;
+}
+
+.color-black {
+    color: $black;
+}
+
+.color-white {
+    color: $white;
+}

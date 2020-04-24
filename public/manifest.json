@@ -1,6 +1,6 @@
 {
   "short_name": "React.js Boilerplate",
-  "name": "React.js Boilerplate - trejocode",
+  "name": "React.js Boilerplate",
   "icons": [
     {
 		  "src": "./icons/icon-32.png",
@@ -35,6 +35,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#33c8a3",
-  "background_color": "#ffffff"
+  "theme_color": "#33C8A3",
+  "background_color": "#FFFFFF"
 }

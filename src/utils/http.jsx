@@ -1,10 +1,9 @@
 /**
- *  @name: http.jsx
- *  @version: 1.0.0
- *  @author: Trejocode - Sergio
- *  @description: Cliente HTTP para todas las peticiones Web basada en superagent: GET, POST, DELETE, PUT, PATCH
- *  @param: {string} url: "/EndPoint"
- *  @param: {Object} data: Payload
+ *  @version 1.0.0
+ *  @author Trejocode - Sergio
+ *  @description Cliente HTTP para todas las peticiones Web basada en superagent: GET, POST, DELETE, PUT, PATCH
+ *  @param {String} url: "/EndPoint"
+ *  @param {Object} data: Payload
 */
 
 import request from "superagent";

@@ -1,69 +1,14 @@
 /*
-*   nprogress.scss
-*   @description: Librería de nProgress
+ *  @version 1.0.0
+ *  @author Trejocode - Sergio
+ *  @description Estilos del Spinner del NProgress
 */
 
-#nprogress { pointer-events: none; }
-
-#nprogress .bar {
-	top: 0;
-	left: 0;
-	z-index: 1;
-	height: 4px;
-	width: 100%;
-	position: fixed;
-	background-color: $primary;
+@keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
 }
-
-#nprogress .peg {	
-	right: 0px;
-	width: 100px;
-	height: 100%;	
-	opacity: 1.0;
-	display: block;
-	position: absolute;
-	box-shadow: 0 0 10px $secondary, 0 0 5px $secondary;
-	-webkit-transform: rotate(3deg) translate(0px, -4px);
-	-ms-transform: rotate(3deg) translate(0px, -4px);
-	transform: rotate(3deg) translate(0px, -4px);
-}
-
-#nprogress .spinner {	
-	top: 15px;
-	z-index: 2;
-	right: 15px;	
-	display: block;
-	position: fixed;
-}
-
-#nprogress .spinner-icon {
-	width: 18px;
-	height: 18px;
-	box-sizing: border-box;	
-	border-top-color: $secondary;
-	border-left-color: $secondary;
-	border-radius: 50%;
-	border: solid 2px transparent;
-	-webkit-animation: nprogress-spinner 400ms linear infinite;
-	animation: nprogress-spinner 400ms linear infinite;
-}
-
-.nprogress-custom-parent {
-	overflow: hidden;
-	position: relative;
-}
-
-.nprogress-custom-parent #nprogress .spinner,
-.nprogress-custom-parent #nprogress .bar {
-	position: absolute;
-}
-
-@-webkit-keyframes nprogress-spinner {
-	0%   { -webkit-transform: rotate(0deg); }
-	100% { -webkit-transform: rotate(360deg); }
-}
-@keyframes nprogress-spinner {
-	0%   { transform: rotate(0deg); }
-	100% { transform: rotate(360deg); }
-}
-

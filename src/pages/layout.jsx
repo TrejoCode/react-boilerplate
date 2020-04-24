@@ -1,21 +1,20 @@
 /**
- *  @name: layout.jsx
- *  @version: 1.0.0
- *  @author: Trejocode - Sergio
- *  @description: Template de las páginas, preparada para SEO.
+ *  @version 1.0.2
+ *  @author Trejocode - Sergio
+ *  @description Template de las páginas, preparada para SEO.
 */
 
 import React, { Fragment } from 'react';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 // Componentes
 import Header from '../components/header';
 import Footer from '../components/footer';
 
 /**
- *  @param: {String} title: "Título"
+ *  @param: {String} title: "Título de la página"
  *  @param: {String} description: "Descripción de la página"
- *  @param: {String} keywords: "Etiquetas, para, seo"
+ *  @param: {String} keywords: "Etiquetas para SEO"
 */
 
 const Layout = (props) => {
@@ -25,13 +24,12 @@ const Layout = (props) => {
     return (
         <Fragment>
             <Helmet>
-                <title> { title || "Título" } </title>
-                <meta name="description" content = { description || "Descripción de la página" } />
-                <meta name="keywords" content = { keywords || "Etiquetas, para, seo" } />
+                <title> { title ? title + " - React Boilerplate" : "React.js Boilerplate - Trejocode" } </title>
+                <meta name = "description" content = { description || "React.js Simple and clean Boilerplate, SEO Ready | Reactjs plantilla limpia, organizada y optimizada para SEO" } />
+                <meta name = "keywords" content = { keywords || "React.js, boilterplate, trejocode react, reactjs boilterplate, react-router-dom" } />
             </Helmet>
-
             <Header />
-                { children }
+            { children }
             <Footer />
             
         </Fragment>
