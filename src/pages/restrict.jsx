@@ -1,5 +1,5 @@
 /**
- *  @version 1.0.1
+ *  @version 1.0.2
  *  @author Trejocode - Sergio
  *  @description Página: /restrict
 */
@@ -15,7 +15,7 @@ const PageRestrict = () => (
                     <div className="justify-center">
                         <h1 className="text-center color-secondary">
                             Página Restringida
-                            <span role="img" aria-label="Secret">㊙️</span>
+                            <span role="img" aria-label="Icono de prohibido">㊙️</span>
                         </h1>
                     </div>
                 </div>

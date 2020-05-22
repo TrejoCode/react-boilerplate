@@ -40,7 +40,6 @@ input, textarea, select, option, button {
     margin: 0;
 	border: 0;
     padding: 0;
-    outline: none;
 }
 
 table {
@@ -50,11 +49,6 @@ table {
 
 table th {
     white-space: nowrap;
-}
-
-input:focus, select:focus {
-    outline: none;
-    transition: 300ms ease-in-out;
 }
 
 a {
@@ -210,6 +204,12 @@ img {
 
 
 /*    TABLES    */
+
+table {
+    caption {
+        margin-bottom: 8px;
+    }
+}
 
 .table-responsive {
     overflow-x: auto;

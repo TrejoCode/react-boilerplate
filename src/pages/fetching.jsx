@@ -1,5 +1,5 @@
 /**
- *  @version 1.1.0
+ *  @version 1.1.1
  *  @author Trejocode - Sergio
  *  @description Página de /fetch
 */
@@ -49,23 +49,24 @@ const PageFetch = () => {
                         <div className="justify-center">
                             <h1 className="text-center color-secondary">
                                 Data Fetching
-                                <span role="img" aria-label="Satellite">📡</span>
+                                <span role="img" aria-label="Icono de Radar">📡</span>
                             </h1>
                         </div>
                         <div className="white-space-16"></div>
                         <div className="justify-center">
                             <h2 className="color-gray text-center">
                                 Edit /utils/http for configure HTTP Client
-                                <span role="img" aria-label="pencil"> 💻</span>
+                                <span role="img" aria-label="Icono de Laptop"> 💻</span>
                             </h2>
                         </div>
                         <div className="white-space-16"></div>
                         <div className="justify-center">
-                            <p className="text-center">
+                            <p className="text-center font-small">
                                 Provided by: <a className = "underline" href="https://reqres.in">Reqres</a> With the power of <a className = "underline" href="https://github.com/visionmedia/superagent">Superagent</a>
                             </p>
                         </div>
-                        <div className="white-space-64"></div>
+                        <div className="white-space-32"></div>
+                        <div className="table-container" aria-live="assertive">
                         { !isLoading &&
                             <div className="table-responsive">
                                 <table>
@@ -91,9 +92,11 @@ const PageFetch = () => {
                                             )
                                         }
                                     </tbody>
+                                    <caption className="font-small">Lista de usuarios desde Reqres</caption>
                                 </table>
                             </div>
                         }
+                        </div>
                         <div className="white-space-64"></div>
                     </div>
                 </div>
