@@ -19,12 +19,12 @@ const Footer = () => (
                 </div>
                 <div className="social full align-center">
                     <div className="align-center">
-                        <a href = "https://www.facebook.com/trejocode">
+                        <a href = "https://www.facebook.com/trejocode" title = "Facebook de Trejocode">
                             <AiFillFacebook title = "Facebook de Trejocode" size = { 20 } className = "color-white" />
                         </a>
                     </div>
                     <div className="align-center">
-                        <a href = "https://www.instragram.com/trejocode">
+                        <a href = "https://www.instragram.com/trejocode" title = "Instagram de Trejocode">
                             <AiFillInstagram title = "Instagram de trejocode" size = { 20 } className = "color-white" />
                         </a>
                     </div>
