@@ -8,7 +8,7 @@ Boilerplate para proyectos de React.js CSR. Listo para producción, organizado, 
 
 Boilerplate for React.js CSR projects. Production ready, organized and optimized for SEO.
 
-![Lighthouse Audit](https://res.cloudinary.com/trejocode/image/upload/v1587829569/Screens/Boilerplate_ykuu4k.jpg)
+![Lighthouse Audit](https://res.cloudinary.com/trejocode/image/upload/v1590290688/Screens/100_tjsyob.png)
 
 ### 🏷️ Características / Features
 - Optimizado para SEO / SEO Ready.
