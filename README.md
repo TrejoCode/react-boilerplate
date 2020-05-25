@@ -1,17 +1,18 @@
 ![Trejocode Logo](https://res.cloudinary.com/trejocode/image/upload/v1586298449/Trejocode/logo_t0otlj.png)
 
 # ⚛️ React.js Boilerplate
-Boilerplate para proyectos de React.js CSR. Listo para producción, organizado y optimizado para SEO.
+Boilerplate para proyectos de React.js CSR. Listo para producción, organizado, optimizado para SEO y compatible con WCAG 2.1
 
 ------------
 
 
 Boilerplate for React.js CSR projects. Production ready, organized and optimized for SEO.
 
-![Lighthouse Audit](https://res.cloudinary.com/trejocode/image/upload/v1587829569/Screens/Boilerplate_ykuu4k.jpg)
+![Lighthouse Audit](https://res.cloudinary.com/trejocode/image/upload/v1590290688/Screens/100_tjsyob.png)
 
 ### 🏷️ Características / Features
 - Optimizado para SEO / SEO Ready.
+- Esenciales WCAG 2.1 para la accesibilidad Web
 - Ruteador, Rutas privadas, públicas y restringidas / Router, Private, public and restricted routes.
 - Cliente HTTP / HTTP Client.
 - PWA Listo / PWA Ready.

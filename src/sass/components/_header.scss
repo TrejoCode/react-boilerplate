@@ -4,7 +4,6 @@
  *  @description Estilos para el componente <Header /> 
 */
 
-
 header {
 
     background-color: $white;
@@ -21,14 +20,14 @@ header {
 
         .nav-item { 
 
-            padding: 0 $paddingMedium; 
-            transition: all 300ms ease-in-out;
-
-            &:hover { color: $primary; }
+            padding: 0 $paddingMedium;
 
         }
 
-        .nav-active { color: $primary; }
+        .nav-active { 
+            font-weight: $weightBold;
+            color: $primary-alt; 
+        }
 
     }
 

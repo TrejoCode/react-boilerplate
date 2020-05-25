@@ -1,5 +1,5 @@
 /**
- *  @version 1.1.0
+ *  @version 1.1.1
  *  @author Trejocode - Sergio
  *  @description Estilos del componente <Header />
 */
@@ -13,9 +13,9 @@ const Header = () => (
     <header className="justify-center">
         <div className="container row-responsive align-center">
             <div className="logo align-center full">
-                <div className="logo responsive-img">
+                <a href = "/" className="logo responsive-img">
                     <img src = { ImgLogo } alt = "React Boilerplate Logo" />
-                </div>
+                </a>
                 <div className="column">
                     <div className="white-space-16"></div>
                     <h2 className="color-secondary">

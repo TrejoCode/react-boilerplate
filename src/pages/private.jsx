@@ -15,7 +15,7 @@ const PagePrivate = () => (
                     <div className="justify-center">
                         <h1 className="text-center color-secondary">
                             Página Privada
-                            <span role="img" aria-label="No Speaking">🙊</span>
+                            <span role="img" aria-label="Icono de sorpresa">🙊</span>
                         </h1>
                     </div>
                 </div>

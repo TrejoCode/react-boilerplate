@@ -1,5 +1,5 @@
 /**
- *  @version1 1.0.1
+ *  @version1 1.0.2
  *  @author Trejocode - Sergio
  *  @description Componente <Footer />
 */
@@ -11,19 +11,23 @@ const Footer = () => (
 
     <footer className="justify-center">
         <div className="container">
-            <div className="row-responsive full">
+            <div className="row-responsive full align-center">
                 <div className="full legend">
-                    <p className="color-white weight-medium">
+                    <p className="color-white font-small weight-medium">
                         2020® Boilerplate Brand
                     </p>
                 </div>
-                <div className="social full">
-                    <a href = "https://www.facebook.com/trejocode">
-                        <AiFillFacebook size = { 18 } className = "color-white" />
-                    </a>
-                    <a href = "https://www.instragram.com/trejocode">
-                        <AiFillInstagram size = { 18 } className = "color-white" />
-                    </a>
+                <div className="social full align-center">
+                    <div className="align-center">
+                        <a href = "https://www.facebook.com/trejocode" title = "Facebook de Trejocode">
+                            <AiFillFacebook title = "Facebook de Trejocode" size = { 20 } className = "color-white" />
+                        </a>
+                    </div>
+                    <div className="align-center">
+                        <a href = "https://www.instragram.com/trejocode" title = "Instagram de Trejocode">
+                            <AiFillInstagram title = "Instagram de trejocode" size = { 20 } className = "color-white" />
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
