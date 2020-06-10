@@ -1,12 +1,12 @@
 /*
- *  @version 1.0.1
+ *  @version 1.0.2
  *  @author Trejocode - Sergio
  *  @description Estilos para el componente <Header /> 
 */
 
 header {
 
-    background-color: $white;
+    background-color: var(--white);
     padding: $paddingMedium 0;
     border-bottom: 1px solid #e9e9e9;
 
@@ -26,17 +26,19 @@ header {
 
         .nav-active { 
             font-weight: $weightBold;
-            color: $primary-alt; 
+            color: var(--primary-alt); 
+        }
+
+        
+        button {
+            background-color: transparent;
         }
 
     }
 
-}
 
-@media screen and (max-width: 768px) {
-
-    header {
-
+    @media screen and (max-width: 768px) {
+        
         padding: $paddingMedium 0;
 
         .logo { justify-content: center; }
@@ -44,8 +46,22 @@ header {
         nav {
             justify-content: center;
             margin-top: $marginMedium;
+
+            .nav-item {
+                font-size: 0.9rem;
+                text-align: center;
+            }
+
         }
+    }           
     
+}
+
+
+html[data-theme='dark'] {
+ 
+    header {
+        border-bottom: 1px solid #383838;
     }
-    
+
 }

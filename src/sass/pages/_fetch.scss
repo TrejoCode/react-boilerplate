@@ -13,23 +13,23 @@
     table {
 
         border-radius: 4px;
-        background-color: $white;
-        border: 1px solid rgba($secondary, 0.1);
+        background-color: var(--white);
+        border: 1px solid rgba(var(--secondary), 0.1);
         box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 
         thead {
-            border: 1px solid $gray;
+            border: 1px solid var(--gray);
             th {
                 text-align: left;
                 padding: $paddingMedium;
-                border-bottom: 1px solid rgba($secondary, 0.25);
+                border-bottom: 1px solid rgba(var(--secondary), 0.25);
             }
         }
 
         tbody {
             tr { 
                 transition: all 300ms ease-in-out;
-                &:hover { background-color: rgba($secondary, 0.1); }
+                &:hover { background-color: rgba(var(--secondary), 0.1); }
             }
             td { padding: $paddingNormal $paddingMedium; }
             img { max-width: 50px; }
