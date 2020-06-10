@@ -1,73 +1,103 @@
 /*
- *  @version 1.0.1
+ *  @version 2.0.0
  *  @author Trejocode - Sergio
  *  @description Base de colores compatible con WCAG AA
 */
 
-$primary:       #3E816D;
-$primary-alt:   #288091;
-$secondary:     #263d54;
-$secondary-alt: #516376;
-$success:       #27ae60;
-$warning:       #f39c12;
-$danger:        #c0392b;
-$info:          #258395;
+:root {
 
-$black:     #262626;
-$white:     #FFFFFF;
-$gray:      #6c6c6c;  
-$darkgray:  #4b4b4b;
+    --primary:       #3E816D;
+    --primary-alt:   #288091;
+    --secondary:     #263d54;
+    --secondary-alt: #516376;
+    --success:       #27ae60;
+    --warning:       #f39c12;
+    --danger:        #c0392b;
+    --info:          #258395;
 
-$darkBlue:  #263d54;
-$darkAqua:  #258395;
-$aqua:      #33c8a3;
-$lightBg:   #ebf3f5;
+    --black:     #262626;
+    --white:     #FFFFFF;
+    --gray:      #6c6c6c;  
+    --darkgray:  #4b4b4b;
 
+    --darkBlue:  #263d54;
+    --darkAqua:  #258395;
+    --aqua:      #33c8a3;
+    --lightBg:   #ebf3f5;
+
+}
 
 .color-primary {
-    color: $primary;
+    color: var(--primary);
 }
 
 .color-primary-alt {
-    color: $primary-alt;
+    color: var(--primary-alt);
 }
 
 .color-secondary {
-    color: $secondary;
+    color: var(--secondary);
 }
 
 .color-secondary-alt {
-    color: $secondary-alt;
+    color: var(--secondary-alt);
 }
 
 .color-success {
-    color: $success;
+    color: var(--success);
 }
 
 .color-warning {
-    color: $warning;
+    color: var(--warning);
 }
 
 .color-danger {
-    color: $danger;
+    color: var(--danger);
 }
 
 .color-info {
-    color: $info;
+    color: var(--info);
 }
 
 .color-gray {
-    color: $gray;
+    color: var(--gray);
 }
 
 .color-darkgray {
-    color: $darkgray;
+    color: var(--darkgray);
 }
 
 .color-black {
-    color: $black;
+    color: var(--black);
 }
 
 .color-white {
-    color: $white;
+    color: var(--white);
+}
+
+html[data-theme='dark'] {
+ 
+    --primary:       #3E816D;
+    --primary-alt:   #FFFFFF;
+    --secondary:     #FFFFFF;
+    --secondary-alt: #FFFFFF;
+    --success:       #27ae60;
+    --warning:       #f39c12;
+    --danger:        #c0392b;
+    --info:          #258395;
+
+    --black:     #ebebeb;
+    --white:     #0a0a0a;
+    --gray:      #c2c2c2;  
+    --darkgray:  #a0a0a0;
+
+    body {
+        background-color: #2c2c2c;
+    }
+
+    .color-white {
+        color: var(--black);
+    }
+    
+
 }

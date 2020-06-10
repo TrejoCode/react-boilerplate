@@ -1,5 +1,5 @@
 /*
-* 	@version 1.0.1
+* 	@version 1.0.2
 *	@author Trejocode - Sergio
 *   @description Estilos de fuente y tipografía
 */
@@ -75,8 +75,8 @@ $weightSemi: 	600;
 $weightBold: 	700;
 
 h1, h2, h3, h4, h5, h6, p, a, b, span, th, td, li, caption,
-label, strong, legend, em, button, select, option, input {
-    color: $black;
+label, strong, legend, em, button, select, option, input, button {
+    color: var(--black);
     font-family: $IBM;
 }
 
@@ -111,7 +111,7 @@ h6 {
 }
 
 p, a, li, label, caption {
-	color: $gray;
+	color: var(--gray);
 	line-height: 1.5rem;
     font-size: $fontText;
 }
@@ -148,8 +148,8 @@ b, i, span, strong, em {
 
 
 ::selection {
-	color: $secondary;
-    background-color: $primary;
+	color: var(--secondary);
+    background-color: var(--primary);
 }
 
 @media screen and (max-width: 768px) {

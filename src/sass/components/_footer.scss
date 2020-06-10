@@ -7,7 +7,7 @@
 footer {
     
     padding: $paddingLarge 0;
-    background-color: $primary-alt;
+    background-color: var(--primary-alt);
 
     .social {
 
@@ -28,6 +28,15 @@ footer {
             justify-content: center;
         }
 
+    }
+
+}
+
+
+html[data-theme='dark'] {
+ 
+    footer {
+        background-color: var(--white);
     }
 
 }
