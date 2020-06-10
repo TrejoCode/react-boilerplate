@@ -12,7 +12,8 @@ Boilerplate for React.js CSR projects. Production ready, organized and optimized
 
 ### 🏷️ Características / Features
 - Optimizado para SEO / SEO Ready.
-- Esenciales WCAG 2.1 para la accesibilidad Web
+- Esenciales WCAG 2.1 para la accesibilidad Web / Essential WCAG 2.1 for Web accessibility
+- Dark Theme Inicial / Basic Dark Theme
 - Ruteador, Rutas privadas, públicas y restringidas / Router, Private, public and restricted routes.
 - Cliente HTTP / HTTP Client.
 - PWA Listo / PWA Ready.
