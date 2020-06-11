@@ -10,6 +10,10 @@ Boilerplate for React.js CSR projects. Production ready, organized and optimized
 
 ![Lighthouse Audit](https://res.cloudinary.com/trejocode/image/upload/v1590290688/Screens/100_tjsyob.png)
 
+### 🎉 2.1.0 Dark Theme
+<img width="860" src="https://res.cloudinary.com/trejocode/image/upload/v1591892824/Trejocode/darktheme_ghaau5.gif" />
+
+
 ### 🏷️ Características / Features
 - Optimizado para SEO / SEO Ready.
 - Esenciales WCAG 2.1 para la accesibilidad Web / Essential WCAG 2.1 for Web accessibility
