@@ -1,10 +1,10 @@
 /**
- *  @version 1.0.0
- *  @author Trejocode - Tane Morgan, Sergio Trejo
- *  @description Componente Bar 
+ * @version 1.0.0
+ * @author Trejocode - Tane Morgan, Sergio Trejo
+ * @description Componente Bar 
 */
 
-import * as React from 'react';
+import React from 'react';
 import PropTypes  from 'prop-types';
 
 const Bar = ({ progress, animationDuration }) => (

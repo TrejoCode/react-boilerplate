@@ -1,8 +1,8 @@
 /**
- *  @version 1.0.1
- *  @author Trejocode - Sergio
- *  @description Manejo de todas las rutas de la aplicación
- * 	@process 3
+ * @version 1.0.1
+ * @author Trejocode - Sergio
+ * @description Manejo de todas las rutas de la aplicación
+ * @process 3
 */
 
 import React from "react";
@@ -14,14 +14,14 @@ import RestrictRoute    from './restrict';
 /**
  * @description Incorporación de todas las rutas
 */
-import PageIndex    from '../pages';
-import PageFetching from '../pages/fetching';
-import PagePrivate  from '../pages/private';
-import PageRestrict from '../pages/restrict';
-import Page404      from '../pages/404';
+import PageIndex    from 'pages';
+import PageFetching from 'pages/fetching';
+import PagePrivate  from 'pages/private';
+import PageRestrict from 'pages/restrict';
+import Page404      from 'pages/404';
 
 
-const Routes = () => (
+const Routes = _ => (
 
     <BrowserRouter>
         <div className="flex main">

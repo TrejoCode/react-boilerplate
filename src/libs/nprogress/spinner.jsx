@@ -1,10 +1,10 @@
 /**
- *  @version 1.0.0
- *  @author Trejocode - Tane Morgan, Sergio Trejo
- *  @description Componente Spinner 
+ * @version 1.0.0
+ * @author Trejocode - Tane Morgan, Sergio Trejo
+ * @description Componente Spinner 
 */
 
-import * as React from 'react'
+import React from 'react'
 
 const Spinner = () => (
 	<div

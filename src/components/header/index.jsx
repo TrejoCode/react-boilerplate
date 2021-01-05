@@ -1,28 +1,30 @@
 /**
- *  @version 1.1.2
- *  @author Trejocode - Sergio
- *  @description Estilos del componente <Header />
+ * @version 1.1.2
+ * @author Trejocode - Sergio
+ * @description Estilos del componente <Header />
 */
 
 import React, { useState } from 'react';
 import { NavLink }  from 'react-router-dom';
-import ImgLogo      from '../../static/img/logo.png';
+import ImgLogo      from 'static/img/logo.png';
 
-const Header = () => {
+const Header = _ => {
 
     const [theme, setTheme] = useState('light');
 
     /**
-     *  @description Activar DarkTheme o LightTheme
+     * @description Activar DarkTheme o LightTheme
     */
     const handleTheme = () => {
 
+        const siteDOM = document.documentElement;
+
         if (theme === "light") {
             setTheme('dark');
-            document.documentElement.setAttribute('data-theme', 'dark');
+            siteDOM.setAttribute('data-theme', 'dark');
         } else {
             setTheme('light');
-            document.documentElement.setAttribute('data-theme', 'light');
+            siteDOM.setAttribute('data-theme', 'light');
         }
         
     };

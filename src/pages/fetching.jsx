@@ -1,38 +1,40 @@
 /**
- *  @version 1.1.1
- *  @author Trejocode - Sergio
- *  @description Página de /fetch
+ * @version 1.1.1
+ * @author Trejocode - Sergio
+ * @description Página de /fetch
 */
 
 import React, { useState, useEffect } from 'react';
 import Layout   from './layout';
-import Request  from '../utils/http';
+import { get }  from 'api';
 import Progress from '../libs/nprogress';
 
 
-const PageFetch = () => {
+const PageFetch = _ => {
 
     const [users, setUsers] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
 
-    useEffect(() => {
+    useEffect(_ => {
 
         /**
-         * @description: Obtener lista de usuarios
+         * @description Obtener una lista de usuarios
         */
-        const fetchUsers = async () => {
-            const request = new Request();
-            const response = await request.get('/users');
-            if (response && response.statusCode === 200) {
-                const { result } = response;
-                setTimeout(() => {
-                    setUsers(result.data);
-                    setIsLoading(false);
-                }, 2500);
-            } else {
+        const fetchUsers = async _ => {
+            
+            const { data, error } = await get('/users');
+
+            if (error) {
                 setUsers([]);
                 setIsLoading(false);
+                return false;
             }
+
+            setTimeout(() => {
+                setUsers(data.data);
+                setIsLoading(false);
+            }, 2500);
+
         }
 
         fetchUsers();
@@ -62,7 +64,7 @@ const PageFetch = () => {
                         <div className="white-space-16"></div>
                         <div className="justify-center">
                             <p className="text-center font-small">
-                                Provided by: <a className = "underline" href="https://reqres.in">Reqres</a> With the power of <a className = "underline" href="https://github.com/visionmedia/superagent">Superagent</a>
+                                Provided by: <a className = "underline" href="https://reqres.in">Reqres</a> With the power of <a className = "underline" href="https://github.com/axios/axios">Axios</a>
                             </p>
                         </div>
                         <div className="white-space-32"></div>

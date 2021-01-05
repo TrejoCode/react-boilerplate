@@ -1,23 +1,21 @@
 /**
- *  @version 1.0.2
- *  @author Trejocode - Sergio
- *  @description Template de las páginas, preparada para SEO.
+ * @version 1.0.2
+ * @author Trejocode - Sergio
+ * @description Template de las páginas, preparada para SEO.
 */
 
 import React, { Fragment } from 'react';
 import { Helmet } from 'react-helmet-async';
-
-// Componentes
-import Header from '../components/header';
-import Footer from '../components/footer';
+import Header from 'components/header';
+import Footer from 'components/footer';
 
 /**
- *  @param: {String} title: "Título de la página"
- *  @param: {String} description: "Descripción de la página"
- *  @param: {String} keywords: "Etiquetas para SEO"
+ *  @param {String} title: Título de la página
+ *  @param {String} description: Descripción de la página
+ *  @param {String} keywords: Etiquetas para SEO
 */
 
-const Layout = (props) => {
+const Layout = props => {
     
     const { title, description, keywords, children } = props;
 
@@ -31,7 +29,6 @@ const Layout = (props) => {
             <Header />
             { children }
             <Footer />
-            
         </Fragment>
     );
 

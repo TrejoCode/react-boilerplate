@@ -1,13 +1,13 @@
 /**
- *  @version 1.1.0
- *  @author Trejocode - Sergio
- *  @description Página de /index
+ * @version 1.1.0
+ * @author Trejocode - Sergio
+ * @description Página de /index
 */
 
 import React from 'react';
 import Layout from './layout';
 
-const PageIndex = () => (
+const PageIndex = _ => (
     <Layout title = "Inicio" description = "React Boilerplate: Página de Inicio" keywords = "React.js, SEO Ready, Inicio" >
         <main className="page-index justify-center">
             <div className="full justify-center align-center">

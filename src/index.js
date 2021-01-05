@@ -1,17 +1,16 @@
 /**
- *  @version 1.1.0
- *  @author Trejocode - Sergio
- *  @description Punto de Entrada de React
- * 	@process 1
+ * @version 2.0.0
+ * @author Trejocode - Sergio
+ * @description Punto de Entrada de React
+ * @process 1
 */
 
 import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
-import App      from './app';
-import 'react-app-polyfill/ie11';
-import WebFont from 'webfontloader';
-import * as serviceWorker from './serviceWorker';
-
+import App      from './App';
+import WebFont  from 'webfontloader';
+import reportWebVitals from './reportWebVitals';
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
 /**
  * @description Cargar la hoja de estilos, requiere SASS
@@ -38,9 +37,10 @@ ReactDOM.render(
 	document.getElementById('root')
 );
 
-
 /**
  * @description Registra el Service Worker para una PWA
  * @url https://create-react-app.dev/docs/making-a-progressive-web-app
 */
-serviceWorker.register();
+
+reportWebVitals();
+serviceWorkerRegistration.register();

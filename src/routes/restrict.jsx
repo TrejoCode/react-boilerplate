@@ -4,7 +4,7 @@
  *  @description Manejo de todas las rutas restringidas
 */
 import React from 'react';
-import { verifySession }    from '../utils/sessions';
+import { verifySession }    from 'auth/sessions';
 import { Route, Redirect }  from 'react-router-dom';
 
 

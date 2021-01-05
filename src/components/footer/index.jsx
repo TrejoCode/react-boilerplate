@@ -1,20 +1,20 @@
 /**
- *  @version1 1.0.2
- *  @author Trejocode - Sergio
- *  @description Componente <Footer />
+ * @version 1.0.2
+ * @author Trejocode - Sergio
+ * @description Componente <Footer />
 */
 
 import React from 'react';
 import { AiFillFacebook, AiFillInstagram } from 'react-icons/ai';
 
-const Footer = () => (
+const Footer = _ => (
 
     <footer className="justify-center">
         <div className="container">
             <div className="row-responsive full align-center">
                 <div className="full legend">
                     <p className="color-white font-small weight-medium">
-                        2020® Boilerplate Brand
+                        2021® Boilerplate Brand
                     </p>
                 </div>
                 <div className="social full align-center">

@@ -1,10 +1,10 @@
 /**
- *  @version 1.0.0
- *  @author Trejocode - Sergio
- *  @description Manejo de todas las rutas privadas
+ * @version 1.0.0
+ * @author Trejocode - Sergio
+ * @description Manejo de todas las rutas privadas
 */
 import React from 'react';
-import { verifySession }    from '../utils/sessions';
+import { verifySession }    from 'auth/sessions';
 import { Route, Redirect }  from 'react-router-dom';
 
 

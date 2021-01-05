@@ -1,5 +1,7 @@
-# @description Configuración para Apache
-# @url https://create-react-app.dev/docs/deployment
+# ====== 
+# Configuración para Apache
+# https://create-react-app.dev/docs/deployment
+# ======
 
 Options -MultiViews
 RewriteEngine On

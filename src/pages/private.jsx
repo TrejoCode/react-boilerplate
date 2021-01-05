@@ -1,13 +1,13 @@
 /**
- *  @version 1.0.1
- *  @author Trejocode - Sergio
- *  @description Página: /private
+ * @version 1.0.1
+ * @author Trejocode - Sergio
+ * @description Página: /private
 */
 
 import React    from 'react';
 import Layout   from './layout';
 
-const PagePrivate = () => (
+const PagePrivate = _ => (
     <Layout title = "Página Privada" description = "Página privada, No puedes acceder">
         <div className="page-index justify-center">
             <div className="full justify-center align-center">

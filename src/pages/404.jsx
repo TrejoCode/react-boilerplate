@@ -1,14 +1,14 @@
 /**
- *  @version 1.0.1
- *  @author Trejocode - Sergio
- *  @description Página: /404
+ * @version 1.0.1
+ * @author Trejocode - Sergio
+ * @description Página: /404
 */
 
 import React    from 'react';
 import { Link } from 'react-router-dom';
 import Layout   from './layout';
 
-const Page404 = () => (
+const Page404 = _ => (
     <Layout title = "No existe la página solicitada" description = "La página no existe">
         <div className="page-index justify-center">
             <div className="full justify-center align-center">

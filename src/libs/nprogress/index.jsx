@@ -1,7 +1,7 @@
 /**
- *  @version 1.0.0
- *  @author Trejocode - Tane Morgan, Sergio Trejo
- *  @description Componente Progress 
+ * @version 1.0.0
+ * @author Trejocode - Tane Morgan, Sergio Trejo
+ * @description Componente Progress 
 */
 
 import { useNProgress } from '@tanem/react-nprogress';
@@ -12,6 +12,7 @@ import Container 	from './container';
 import Spinner 		from './spinner';
 
 const Progress = ({ isAnimating }) => {
+
 	const { animationDuration, isFinished, progress } = useNProgress({
 		isAnimating
 	});

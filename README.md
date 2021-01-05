@@ -10,23 +10,25 @@ Boilerplate for React.js CSR projects. Production ready, organized and optimized
 
 ![Lighthouse Audit](https://res.cloudinary.com/trejocode/image/upload/v1590290688/Screens/100_tjsyob.png)
 
-### 🎉 2.1.0 Dark Theme
+### ⚛ 2.1.1 React.js v17
+
+### 🎉 2.1.0 Modo Oscuro / Dark Theme
 <img width="860" src="https://res.cloudinary.com/trejocode/image/upload/v1591892824/Trejocode/darktheme_ghaau5.gif" />
 
 
 ### 🏷️ Características / Features
-- Optimizado para SEO / SEO Ready.
+- Optimizado para SEO / SEO Ready
 - Esenciales WCAG 2.1 para la accesibilidad Web / Essential WCAG 2.1 for Web accessibility
 - Dark Theme Inicial / Basic Dark Theme
-- Ruteador, Rutas privadas, públicas y restringidas / Router, Private, public and restricted routes.
-- Cliente HTTP / HTTP Client.
-- PWA Listo / PWA Ready.
-- SASS precargado / SASS incorporated.
-- NProgress Loader.
-- Código documentado / Documented code.
-- Estructura de carpetas / Folder structure.
-- Estructura de carpetas / Folder structure.
-- Última versión mayor de React / React latest version.
+- Ruteador, Rutas privadas, públicas y restringidas / Router, Private, public and restricted routes
+- Cliente HTTP / HTTP Client
+- PWA Listo / PWA Ready
+- SASS precargado / SASS incorporated
+- NProgress Loader
+- Código documentado / Documented code
+- Estructura de carpetas / Folder structure
+- Estructura de carpetas / Folder structure
+- Última versión mayor de React / React latest version
 
 ### 🚀 Para empezar / Get started
 Estas instrucciones le proporcionarán una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo. Consulte la sección de implementación para obtener notas sobre cómo desplegar el proyecto en producción.
@@ -45,10 +47,9 @@ npm start
 ### 📦 Node modules
 * [Node SASS](https://github.com/sass/node-sass) - SASS Compiler
 * [React NProgress](https://github.com/tanem/react-nprogress) - Progress bar
-* [React App Polyfill](https://www.npmjs.com/package/react-app-polyfill) - Polyfill
 * [React Helmet Async](https://www.npmjs.com/package/react-helmet-async) - Document Head manager
 * [React Router Dom](https://www.npmjs.com/package/react-router-dom) - Router
-* [Superagent](https://github.com/visionmedia/superagent) - HTTP core client
+* [Axios](https://github.com/axios/axios) - HTTP client
 * [Web Font Loader](https://github.com/typekit/webfontloader) - Async Web Font Loader
 
 ### 📐 Requisitos / Requirements

@@ -1,13 +1,13 @@
 /**
- *  @version 1.0.2
- *  @author Trejocode - Sergio
- *  @description Página: /restrict
+ * @version 1.0.2
+ * @author Trejocode - Sergio
+ * @description Página: /restrict
 */
 
 import React    from 'react';
 import Layout   from './layout';
 
-const PageRestrict = () => (
+const PageRestrict = _ => (
     <Layout title = "Página Privada" description = "Página privada, No puedes acceder">
         <div className="page-index justify-center">
             <div className="full justify-center align-center">

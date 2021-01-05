@@ -1,7 +1,7 @@
 /**
- *  @version 1.0.0
- *  @author Trejocode - Tane Morgan, Sergio Trejo
- *  @description Componente Container 
+ * @version 1.0.0
+ * @author Trejocode - Tane Morgan, Sergio Trejo
+ * @description Componente Container 
 */
 
 import * as React   from 'react';
