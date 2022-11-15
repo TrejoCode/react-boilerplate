@@ -22,3 +22,5 @@ jobs:
 
       - run: npm install
       - run: npm run build
+      - run: pm2 reload react.trejocode.com
+      - run: pm2 save
