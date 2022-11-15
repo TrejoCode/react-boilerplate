@@ -1,22 +1,25 @@
 ![Trejocode Logo](https://res.cloudinary.com/trejocode/image/upload/v1586298449/Trejocode/logo_t0otlj.png)
 
 # ⚛️ React.js Boilerplate
+
 Boilerplate para proyectos de React.js CSR. Listo para producción, organizado, optimizado para SEO y compatible con WCAG 2.1
 
-------------
-
+---
 
 Boilerplate for React.js CSR projects. Production ready, organized and optimized for SEO.
 
 ![Lighthouse Audit](https://res.cloudinary.com/trejocode/image/upload/v1590290688/Screens/100_tjsyob.png)
 
+### ⚛ 3.0.0 React.js v18
+
 ### ⚛ 2.1.1 React.js v17
 
 ### 🎉 2.1.0 Modo Oscuro / Dark Theme
+
 <img width="860" src="https://res.cloudinary.com/trejocode/image/upload/v1591892824/Trejocode/darktheme_ghaau5.gif" />
 
-
 ### 🏷️ Características / Features
+
 - Optimizado para SEO / SEO Ready
 - Esenciales WCAG 2.1 para la accesibilidad Web / Essential WCAG 2.1 for Web accessibility
 - Dark Theme Inicial / Basic Dark Theme
@@ -31,9 +34,10 @@ Boilerplate for React.js CSR projects. Production ready, organized and optimized
 - Última versión mayor de React / React latest version
 
 ### 🚀 Para empezar / Get started
+
 Estas instrucciones le proporcionarán una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo. Consulte la sección de implementación para obtener notas sobre cómo desplegar el proyecto en producción.
 
-------------
+---
 
 These instructions will provide you with a copy of the running project on your local machine for development purposes. See the implementation section for notes on how to deploy the project into production.
 
@@ -43,34 +47,37 @@ npm install
 npm start
 ```
 
-
 ### 📦 Node modules
-* [Node SASS](https://github.com/sass/node-sass) - SASS Compiler
-* [React NProgress](https://github.com/tanem/react-nprogress) - Progress bar
-* [React Helmet Async](https://www.npmjs.com/package/react-helmet-async) - Document Head manager
-* [React Router Dom](https://www.npmjs.com/package/react-router-dom) - Router
-* [Axios](https://github.com/axios/axios) - HTTP client
-* [Web Font Loader](https://github.com/typekit/webfontloader) - Async Web Font Loader
+
+- [Node SASS](https://github.com/sass/node-sass) - SASS Compiler
+- [React NProgress](https://github.com/tanem/react-nprogress) - Progress bar
+- [React Helmet Async](https://www.npmjs.com/package/react-helmet-async) - Document Head manager
+- [React Router Dom](https://www.npmjs.com/package/react-router-dom) - Router
+- [Axios](https://github.com/axios/axios) - HTTP client
+- [Web Font Loader](https://github.com/typekit/webfontloader) - Async Web Font Loader
 
 ### 📐 Requisitos / Requirements
-- Node min: 10
+
+- Node min: 16
 - Web Browser
 - VS Code, Atom, Sublime text
 
 ### 📁 Estructura / Folder structure
-	├── node_modules            # Módulos Node
+
+    ├── node_modules            # Módulos Node
     ├── components              # Componentes
     ├── pages                   # Páginas
-	├── routes                  # Ruteador
+    ├── routes                  # Ruteador
     ├── sass                    # Módulos SASS
     ├── libs                    # Librerías
-	├── utils                   # Utilidades
+    ├── utils                   # Utilidades
     └── README.md
 
 ## 🤝 Colaboradores / Collaborators
 
-* **Sergio A. Trejo** - *Frontend* - [trejocode](https://github.com/trejocode)
-- You ❤
+- **Sergio A. Trejo** - _Frontend_ - [trejocode](https://github.com/trejocode)
+
+* You ❤
 
 ## 📕 Migración de versión anterior / Previous version migration
 
