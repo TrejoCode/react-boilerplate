@@ -2,13 +2,15 @@
 
 # ⚛️ React.js Boilerplate
 
-Boilerplate para proyectos de React.js CSR. Listo para producción, organizado, optimizado para SEO y compatible con WCAG 2.1
+Boilerplate para proyectos de React.js CSR. Listo para producción, organizado, optimizado para SEO y compatible con WCAG 2.1, ahora con el poder de Vite + Typescript
 
 ---
 
 Boilerplate for React.js CSR projects. Production ready, organized and optimized for SEO.
 
 ![Lighthouse Audit](https://res.cloudinary.com/trejocode/image/upload/v1590290688/Screens/100_tjsyob.png)
+
+### ⚛ 4.0.0 Vite + Typescript
 
 ### ⚛ 3.0.0 React.js v18
 
@@ -32,6 +34,7 @@ Boilerplate for React.js CSR projects. Production ready, organized and optimized
 - Estructura de carpetas / Folder structure
 - Estructura de carpetas / Folder structure
 - Última versión mayor de React / React latest version
+- Vite + Typescript
 
 ### 🚀 Para empezar / Get started
 
@@ -44,7 +47,7 @@ These instructions will provide you with a copy of the running project on your l
 ```bash
 cd react-boilerplate
 npm install
-npm start
+npm dev
 ```
 
 ### 📦 Node modules
@@ -54,11 +57,10 @@ npm start
 - [React Helmet Async](https://www.npmjs.com/package/react-helmet-async) - Document Head manager
 - [React Router Dom](https://www.npmjs.com/package/react-router-dom) - Router
 - [Axios](https://github.com/axios/axios) - HTTP client
-- [Web Font Loader](https://github.com/typekit/webfontloader) - Async Web Font Loader
 
 ### 📐 Requisitos / Requirements
 
-- Node min: 16
+- Node min: 18
 - Web Browser
 - VS Code, Atom, Sublime text
 
@@ -69,7 +71,6 @@ npm start
     ├── pages                   # Páginas
     ├── routes                  # Ruteador
     ├── sass                    # Módulos SASS
-    ├── libs                    # Librerías
     ├── utils                   # Utilidades
     └── README.md
 
