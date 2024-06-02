@@ -20,7 +20,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
 
-      - run: pnpm install
-      - run: pnpm build
+      - run: npm install
+      - run: npm build
       - run: pm2 reload react.trejocode.com
       - run: pm2 save
