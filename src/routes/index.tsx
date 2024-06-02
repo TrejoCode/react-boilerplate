@@ -36,7 +36,7 @@ const Router = (): JSX.Element => (
               </RestrictRoute>
             }
           />
-          <Route element={<Page404 />} />
+          <Route path="*" element={<Page404 />} />
         </Routes>
       </div>
     </div>
