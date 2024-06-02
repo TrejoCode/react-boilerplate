@@ -18,7 +18,7 @@ const Router = (): JSX.Element => (
     <div className="flex main">
       <div className="column full">
         <Routes>
-          <Route path="/" element={<PageIndex />} />
+          <Route path="/" element={<PageIndex />} errorElement={<Page404 />} />
           <Route path="/fetch" element={<PageFetching />} />
           <Route
             path="/private"
